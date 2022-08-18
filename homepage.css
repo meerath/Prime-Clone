@@ -1,0 +1,334 @@
+body{
+    background-color: #19222d !important; 
+    margin: 0%;
+}
+
+.navBg{
+    background-color:#19222d;
+    /* color: white !important; */
+}
+.logo{
+    height: 100%;
+    width: 20%;
+}
+.clr{
+    color: aliceblue !important;
+}
+.searchBg{
+    background-color: #19222d;
+}
+.cir{
+    border-radius: 50% !important;
+}
+
+
+
+
+
+
+.search-box {
+    position: absolute;
+    top: 20%; 
+    left: 75%; 
+    float: right;
+    margin-right: 40px;
+    background:#19222d;
+    /* background-color: blue; */
+    height: 45px;
+    width: 300px;
+    border-radius: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-box:hover>.search-txt {
+    width: 240px;
+    padding: 0 6px; 
+    background-color: white;
+    /* background-color: blueviolet; */
+}
+
+
+.search-box:hover>.search-btn { 
+    display: none;
+}
+
+
+.search-btn {
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin-left: 80%;
+    border-radius: 50%;
+    background:#19222d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    /* colorwhite;? */
+    color: black;
+    font-size: 16px;
+    /* transition: 0.4s; */
+    line-height: 40px;
+    width: 0px;
+}
+.cle{
+    color: aliceblue;
+    position: relative;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-nav {
+    position: absolute !important;
+    width: 100%;
+    top: 50%;
+    z-index: 1;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+/* .owl-carousel .owl-nav button.owl-prev::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    color: red;
+    -webkit-font-smoothing: antialiased;
+}
+
+.owl-carousel .owl-nav button.owl-prev span::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f099";
+} */
+
+.owl-nav {
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span {
+    font-size: 24px;
+    font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        margin: auto !important;
+
+        background-color: aquamarine;
+
+        color: #262626 !important;
+            background-color: white !important;
+            border-radius: 99px;
+            padding: auto !important;
+        
+            width: 30px;
+            height: 30px;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev, 
+.owl-carousel .owl-nav button.owl-next {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 55px;
+}
+
+.myCarousel{
+    width: 200px;
+        height: 200px;
+}
+
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 12%;
+    padding: 3px;
+} */
+/* .cle{
+    color: aliceblue;
+} */
+.txtclr{
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+}
+.bgd{
+    height: 169px;
+        width: 282px;
+        background-color: blue;
+        margin-left: 17px;
+       border-radius: 2%;
+}
+#first{
+background-image: url(/images/Continue\ Watching/cw1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#second{
+background-image: url(/images/Continue\ Watching/cw2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#third{
+background-image: url(/images/Continue\ Watching/cw3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#fourth{
+background-image: url(/images/Continue\ Watching/cw4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#fifth{
+background-image: url(/images/Continue\ Watching/cw5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#sixth{
+background-image: url(/images/Continue\ Watching/cw6.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.xyz{
+    height: 100%;
+}
+
+
+.thriller{
+height: 169px;
+    width: 282px;
+    /* background-color: blue; */
+    margin-left: 17px;
+    border-radius: 2%;
+    }
+
+ #thriller1{
+    /* background-image: url(/images/Thriller/th1.jpg); */
+    background-image: url(/images/Thriller/th1.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+ }
+ #thriller2 {
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th2.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ #thriller3 {
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th3.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ #thriller4 {
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th4.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ #thriller5 {
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th5.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ #thriller6 {
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th6.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ #thriller7 {
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th7.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+
+
+ #scfi1{
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th7.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+  #thriller7 {
+      /* background-image: url(/images/Thriller/th1.jpg); */
+      background-image: url(/images/Thriller/th7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+#thriller7 {
+       /* background-image: url(/images/Thriller/th1.jpg); */
+       background-image: url(/images/Thriller/th7.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+#thriller7 {
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th7.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+#thriller7 {
+      /* background-image: url(/images/Thriller/th1.jpg); */
+      background-image: url(/images/Thriller/th7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+#thriller7 {
+       /* background-image: url(/images/Thriller/th1.jpg); */
+       background-image: url(/images/Thriller/th7.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+#thriller7 {
+            /* background-image: url(/images/Thriller/th1.jpg); */
+            background-image: url(/images/Thriller/th7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+#thriller7 {
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th7.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+
+
