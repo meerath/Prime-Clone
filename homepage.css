@@ -194,32 +194,32 @@ body{
        border-radius: 2%;
 }
 #first{
-background-image: url(/Prime-Clone/images/Continue\ Watching/cw1.jpg);
+background-image: url(/images/Continue\ Watching/cw1.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 #second{
-background-image: url(/Prime-Clone/images/Continue\ Watching/cw2.jpg);
+background-image: url(/images/Continue\ Watching/cw2.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 #third{
-background-image: url(/Prime-Clone/images/Continue\ Watching/cw3.jpg);
+background-image: url(/images/Continue\ Watching/cw3.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 #fourth{
-background-image: url(/Prime-Clone/images/Continue\ Watching/cw4.jpg);
+background-image: url(/images/Continue\ Watching/cw4.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 #fifth{
-background-image: url(/Prime-Clone/images/Continue\ Watching/cw5.jpg);
+background-image: url(/images/Continue\ Watching/cw5.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 #sixth{
-background-image: url(/Prime-Clone/images/Continue\ Watching/cw6.jpg);
+background-image: url(/images/Continue\ Watching/cw6.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -237,44 +237,44 @@ height: 169px;
     }
 
  #thriller1{
-    /* background-image: url(/Prime-Clone/images/Thriller/th1.jpg); */
-    background-image: url(/Prime-Clone/images/Thriller/th1.jpg);
+    /* background-image: url(/images/Thriller/th1.jpg); */
+    background-image: url(/images/Thriller/th1.jpg);
     background-repeat: no-repeat;
         background-size: cover;
  }
  #thriller2 {
-     /* background-image: url(/Prime-Clone/images/Thriller/th1.jpg); */
-     background-image: url(/Prime-Clone/images/Thriller/th2.jpeg);
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th2.jpeg);
      background-repeat: no-repeat;
      background-size: cover;
  }
  #thriller3 {
-     /* background-image: url(/Prime-Clone/images/Thriller/th1.jpg); */
-     background-image: url(/Prime-Clone/images/Thriller/th3.jpg);
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th3.jpg);
      background-repeat: no-repeat;
      background-size: cover;
  }
  #thriller4 {
-     /* background-image: url(/Prime-Clone/images/Thriller/th1.jpg); */
-     background-image: url(/Prime-Clone/images/Thriller/th4.jpg);
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th4.jpg);
      background-repeat: no-repeat;
      background-size: cover;
  }
  #thriller5 {
-     /* background-image: url(/Prime-Clone/images/Thriller/th1.jpg); */
-     background-image: url(/Prime-Clone/images/Thriller/th5.jpg);
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th5.jpg);
      background-repeat: no-repeat;
      background-size: cover;
  }
  #thriller6 {
-     /* background-image: url(/Prime-Clone/images/Thriller/th1.jpg); */
-     background-image: url(/Prime-Clone/images/Thriller/th6.jpg);
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/Thriller/th6.jpg);
      background-repeat: no-repeat;
      background-size: cover;
  }
  #thriller7 {
-     /* background-image: url(/Prime-Clone/images/Thriller/th1.jpg); */
-     background-image: url(/Prime-Clone/images/scfi/scfi1.jpg);
+     /* background-image: url(/images/Thriller/th1.jpg); */
+     background-image: url(/images/scfi/scfi1.jpg);
      background-repeat: no-repeat;
      background-size: cover;
  }
@@ -282,41 +282,105 @@ height: 169px;
 
 
  #scfi1{
-     background-image: url(/Prime-Clone/images/scfi/scfi1.jpg);
+     background-image: url(/images/scfi/scfi1.jpg);
      background-repeat: no-repeat;
      background-size: cover;
  }
   #scfi2 { 
-      background-image: url(/Prime-Clone/images/scfi/scfi2.jpg);
+      background-image: url(/images/scfi/scfi2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
   }
 #scfi3{
-       background-image: url(/Prime-Clone/images/scfi/scfi3.jpg);
+       background-image: url(/images/scfi/scfi3.jpg);
        background-repeat: no-repeat;
        background-size: cover;
    }
 #scfi4{
-     background-image: url(/Prime-Clone/images/scfi/scfi4.jpg);
+     background-image: url(/images/scfi/scfi4.jpg);
      background-repeat: no-repeat;
      background-size: cover;
  }
 #scfi5{
-      background-image: url(/Prime-Clone/images/scfi/scfi5.jpg);
+      background-image: url(/images/scfi/scfi5.jpg);
       background-repeat: no-repeat;
       background-size: cover;
   }
 #scfi6 {
-       background-image: url(/Prime-Clone/images/scfi/scfi6.jpg);
+       background-image: url(/images/scfi/scfi6.jpg);
        background-repeat: no-repeat;
        background-size: cover;
    }
 #scfi7{ 
-            background-image: url(/Prime-Clone/images/scfi/scfi7.jpg);
+            background-image: url(/images/scfi/scfi7.jpg);
             background-repeat: no-repeat;
             background-size: cover;
 }
 
 
+/* .background{
+    margin: 20px;  
+    height: 100vh;
+    width: 1vw;
+    height: vw;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-image: url(/images/scfi/scfi3.jpg);
+}  */
 
+.grad{
+    /* color: linear-gradient(to right,rgba(255,0,0,0),rgb(0, 0, 0)); */
+    z-index: 1000;
+    background-blend-mode: overlay(to right,
+        rgba(255, 0, 0, 0),
+        rgb(0, 0, 0));
+}
+/* .bgimg{
+    margin: 20px;  
+} */
+.img-section {
+    margin-top: 2%;
+    width: 100%;
+    background-color: #000;
+        color: white;
+}
+.img-container {
+    background-color: red;
+    position: relative;
+    margin-left: auto;
+    /* align-items: flex-end; */
+    left: 12px;
+    width: 71%;
+        /* align-self: flex-end; */
+}
 
+.overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 30%,rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9)5%,rgba(255, 255, 255,0) 100%);
+}
+
+.content {
+    width: max-content;
+    overflow: visible;
+    background-color: #000;
+    color: white;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+/* 
+    .img-container {
+        width: 70%;
+        align-self: flex-end;
+    } */
