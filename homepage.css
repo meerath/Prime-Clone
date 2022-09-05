@@ -1,22 +1,48 @@
 body{
-    background-color: #19222d !important; 
+    /* background-color: #19222d !important;  */
+    background-color: white;
     margin: 0%;
+    color: #19222d;
+}
+/* 
+a {
+    color: #19222d !important;
+} */
+
+body.dark{
+    background-color: #19222d;
+    color: #f5f5f5;
 }
 
+.clr {
+    color: black !important;
+}
+.clr.dark{
+    color: white !important;
+}
+
+
 .navBg{
-    background-color:#19222d;
+    /* background-color:#19222d; */
     /* color: white !important; */
+    background-color:white;
+}
+
+.navbg2{
+    background-color: #19222d;
 }
 
 .logo{
     height: 100%;
     width: 20%;
 }
-.clr{
-    color: aliceblue !important;
-}
+
 .searchBg{
-    background-color: #19222d;
+    /* background-color: #19222d; */
+    background-color: white;
+}
+.searchbg2{
+    background-color: #19222d !important;
 }
 .cir{
     border-radius: 50% !important;
@@ -29,21 +55,21 @@ body{
     left: 75%; 
     float: right;
     margin-right: 40px;
-    background:#19222d;
-    /* background-color: blue; */
+    /* background-color:#19222d;+ */
+    background-color:white;
+    /* background: transparent; */
     height: 45px;
     width: 300px;
     border-radius: 0px;
     padding: 10px;
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .search-box:hover>.search-txt {
     width: 240px;
     padding: 0 6px; 
-    background-color: white;
+    background-color:#19222d;
    
 }
 
@@ -80,7 +106,7 @@ body{
     width: 0px;
 }
 .cle{
-    color: aliceblue;
+    /* color: aliceblue; */
     position: relative;
 }
 
@@ -113,10 +139,10 @@ body{
         -webkit-font-smoothing: antialiased;
         margin: auto !important;
 
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
 
-        color: #262626 !important;
-            background-color: white !important;
+        /* color: #262626 !important; */
+            /* background-color: white !important; */
             border-radius: 99px;
             padding: auto !important;
         
@@ -141,7 +167,6 @@ body{
 }
 
 .txtclr{
-    color: white;
     margin-top: 2%;
     margin-bottom: 1%;
     margin-left: 2%;
@@ -149,7 +174,7 @@ body{
 .bgd{
     height: 169px;
         width: 282px;
-        background-color: blue;
+        /* background-color: blue; */
         margin-left: 17px;
        border-radius: 2%;
 }
@@ -195,7 +220,6 @@ background-size: cover;
     margin-left: 17px;
     border-radius: 2%;
 }
-
  #thriller1{
     background-image: url(/Prime-Clone/images/Thriller/th1.jpg);
     background-repeat: no-repeat;
@@ -276,7 +300,6 @@ background-size: cover;
         rgba(255, 0, 0, 0),
         rgb(0, 0, 0));
 }
-
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -420,4 +443,80 @@ background-size: cover;
 .owl-item cloned{
     margin-right: -20px;
 }
+
+.i2 {
+    /* margin-top: -8px; */
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    margin:  auto 20px;
+    top: 37%;
+    left: 38%;
+}
+
+
+/* for dark mode */
+
+
+
+
+
+/* #coupon{
+        width: 53%;
+            height: 406px;
+            background-color: white;
+            z-index: 5;
+            position: absolute;
+            margin-top: 4%;
+            margin-left: 25%;
+            border-radius: 2% 2%;
+            border: none;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.cardtxt{
+    background-color: #19222d;
+    height: 100%;
+    width: 30%;
+}
+
+.couponImg{
+    background-image: url(/Prime-Clone/images/recommended/coupon.jpg);
+    
+background-repeat: no-repeat;
+    background-size: cover;
+}
+couponImg{
+height: 100%;
+}
+.textbody{
+    z-index: 109;
+    color: white;
+
+}  
+.btn2{
+    color: rgb(255, 255, 255);
+    background-color:#19222d;
+    border: none;
+    margin-left: 93%;
+    margin-top: -5%;
+    cursor: pointer !important;
+    
+}
+.overlay2{
+    z-index: 1;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; */
+
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 20%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9)5%, rgba(255, 255, 255, 0) 100%); */ 
+/* } */
+
 
