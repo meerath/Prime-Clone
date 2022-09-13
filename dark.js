@@ -1,3 +1,4 @@
+ 
  const changeMode=()=>{
         document.getElementsByTagName('nav')[0].classList.toggle('navbg2')
 
@@ -12,10 +13,9 @@
         });
 
         document.getElementsByTagName('body')[0].classList.toggle('dark')
-
-
-
      }
+
+     
 
 
 

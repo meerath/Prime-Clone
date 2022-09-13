@@ -19,9 +19,6 @@ const closeCoupon = () => {
      document.getElementById('thr').style.opacity="1";
      document.getElementById('thri').style.opacity="1";
 }
-  const changeMode=()=>{
-                let mybody = document.body;
-                mybody.classList.toggle('mydark')
-            }
+
 
            
