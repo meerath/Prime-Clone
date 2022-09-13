@@ -1,5 +1,5 @@
 function loadCoupon(){
-    document.getElementById('coupon').style.display="block";
+    document.querySelector('.coupon-container').style.display="block";
      document.getElementById('navbar').style.opacity="0.5";
       document.getElementById('carouselExampleCaptions').style.opacity="0.5";
       
@@ -7,10 +7,11 @@ function loadCoupon(){
         document.getElementById('cwi').style.opacity="0.5";
         document.getElementById('thr').style.opacity="0.5";
         document.getElementById('thri').style.opacity="0.5";
+        document.getElementsByName('body').style.overflow='hidden'
 }
 
 const closeCoupon = () => {
-    document.getElementById('coupon').style.display="none";
+    document.querySelector('.coupon-container').style.display="none";
     document.body.style.opacity="1";
     document.getElementById('navbar').style.opacity="1"
      document.getElementById('carouselExampleCaptions').style.opacity="1";
@@ -18,6 +19,7 @@ const closeCoupon = () => {
      document.getElementById('cwi').style.opacity="1";
      document.getElementById('thr').style.opacity="1";
      document.getElementById('thri').style.opacity="1";
+     document.getElementsByName('body').style.overflow='auto'
 }
 
 
